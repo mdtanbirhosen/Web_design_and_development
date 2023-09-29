@@ -72,9 +72,9 @@ footer{
     justify-content: center;
 }
 .input-section{
-    background-color: aliceblue;
+    background-color: white;
     border-radius: 50px;
-    padding: 16px 30px;
+    padding: 5px 30px;
 }
 input{
     border: none;
@@ -82,8 +82,8 @@ input{
 }
 .text-warp{
     position: absolute;
-    top: 0px;
-    left: 28%;
+    top: 30px;
+    left: 34%;
 }
 .text-warp a{
     background-color: #F85559;
@@ -98,4 +98,55 @@ h1{
     text-align: center;
     color: white;
     position: relative;
+}
+p{
+    font-size: 20px;
+}
+h2{
+    color: black;
+    font-size: 48px;
+    font-weight: 800;
+}
+.deal-section paragraph{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.deal-section number{
+    color: black;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: -18px;
+
+}
+.deal-section day{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.count-down{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+.big-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-wrap .border{
+    border: 1px solid rgba(18,18,18,0.10);
+
+}
+.count{
+    padding: 0px 20px;
+}
+.dot{
+    position: relative;
+    top: -18px;
+  
 }
